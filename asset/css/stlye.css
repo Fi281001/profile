@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.wall {
+    position: relative;
+}
+
+.img-wall {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#header .menu {
+    display: flex;
+    padding: 65px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header .header_logo {
+    margin-right: 500px;
+}
+
+.but {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #3f3d56;
+    ;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+
+#header .nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+#header li a {
+    list-style-type: None;
+    text-decoration: None;
+}
+
+#header li {
+    list-style-type: None;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but:hover {
+    background-color: #54b192;
+}
+
+#header li:hover a {
+    color: #54b192;
+}
+
+#content {
+    width: 300px;
+    margin-bottom: 300px;
+}
+
+#content .banner .icon a {
+    padding-top: 40px;
+    padding-right: 30px;
+    text-decoration: None;
+    font-size: 30px;
+    color: #000;
+}
+
+#content .banner .icon,
+#content .banner p,
+#content .banner h1 {
+    padding: 30px 0;
+}
+
+.container .thingido .body_thing_foot {
+    width: 500px;
+}
+
+.container .body_thing_foot h4 {
+    font-size: 30px;
+}
+
+.container .body_thing_foot p {
+    font-size: 20px;
+}
+
+.container .tieude {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.container .thingido .body_thing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .body_thing_foot p,
+.container .body_thing_foot h4 {
+    padding: 30px 0;
+}
+
+.container .RecentWorks .anh {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 986px;
+    margin: 0 auto;
+}
+
+.container .RecentWorks .anh .anh1 {
+    width: 413px;
+    height: 460px;
+
+}
+
+.container .RecentWorks .anh1:nth-child(1),
+.container .RecentWorks .anh1:nth-child(3) {
+    margin-top: 100px;
+}
+
+.container .RecentWorks .butanh {
+    margin-top: 132px;
+    display: block;
+    text-align: center;
+}
+
+.wall2 {
+    position: relative;
+}
+
+.wall2 .anh_dec {
+    position: absolute;
+    top: -260px;
+    right: 0;
+    transform: translateX(32%);
+    width: 60%;
+}
+
+.container .footer_content {
+    width: 401px;
+}
+
+.container .footer_head h2 {
+    margin-top: 139px;
+    font-size: 32px;
+    margin-bottom: 52px;
+}
+.container .col2 {
+    display: flex;
+    justify-content: space-between;
+}
+.container .icon_col2 {
+    
+    font-size: 20px;
+}
+.container .icon2{
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 40px;
+}
+.container .icon2 .ti{
+    padding-right: 30px;
+} 
+.container .col2 a{
+    text-decoration: None;
+    color: #000;
+    font-size: 20px;
+}
